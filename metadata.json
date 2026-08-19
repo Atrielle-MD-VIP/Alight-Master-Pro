@@ -1,0 +1,6 @@
+{
+  "name": "AlightPro - Alight Motion Verifier",
+  "description": "Platform verifikasi mandiri untuk aktivasi akun Alight Motion Pro 1 tahun secara gratis, cepat, dan aman.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
