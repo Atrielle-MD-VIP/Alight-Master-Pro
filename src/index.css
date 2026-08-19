@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .neo-box {
+    border: 2px solid #0f172a;
+    box-shadow: 3px 3px 0px #0f172a;
+  }
+  .neo-box-md {
+    border: 2px solid #0f172a;
+    box-shadow: 4px 4px 0px #0f172a;
+  }
+  .neo-box-lg {
+    border: 2.5px solid #0f172a;
+    box-shadow: 5px 5px 0px #0f172a;
+  }
+  .neo-btn {
+    border: 2px solid #0f172a;
+    box-shadow: 3px 3px 0px #0f172a;
+    transition: all 0.15s ease-in-out;
+  }
+  .neo-btn:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0px #0f172a;
+  }
+  .neo-btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 0px #0f172a;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+@custom-variant dark (&:is(.dark *));
